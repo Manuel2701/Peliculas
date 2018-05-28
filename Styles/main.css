@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+*{
+margin: 0;
+padding: 0;
+background-color: #fff;
+}
+header div:first-child{
+    position: relative;
+    width: 100%;
+    height: 130px;
+    background-image: url('../Assets/rologram.png');
+}
+header div:first-child a h1{
+    position: absolute;
+    width: 100%;
+    font-size: 80px;
+    color: #fff;
+    font-family: 'Gugi', cursive;
+    background: transparent;
+    margin: 0 0 0 600px;
+}
+nav{
+width: 100%;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    height: 57px;
+}
+nav ul li {
+    float: right;
+}
+nav ul li a {
+    background-color: #fff;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Gugi', cursive;
+    font-weight: bold;
+}
+
+nav ul li:hover a {
+    transition: ease-out .1s;
+    border-bottom: solid 5px #198acf;
+    
+}
+.action{
+    border-bottom: solid 5px #198acf;
+}
+
+
+section div{
+    display: inline-flex;
+}
+section div:first-child article:first-child {
+    margin: 100px 0 0 50px;
+    position: relative;
+    height: 372px;
+}
+section div:first-child article:nth-child(2){
+    margin: 100px 0 0 20px;
+    position: relative;
+    height: 372px;
+}
+section div:first-child article:nth-child(3){
+    margin: 100px 0 0 20px;
+    position: relative;
+    height: 372px;
+}
+section div:first-child article:last-child{
+    margin: 100px 0 0 20px;
+    position: relative;
+    height: 372px;
+}
+section div:last-child article:first-child{
+    margin: 80px 0 0 50px; 
+    position: relative;
+    height: 372px;
+}
+section div:last-child article:nth-child(2){
+    margin: 80px 0 0 20px; 
+    position: relative;
+    height: 372px;
+}
+section div:last-child article:nth-child(3){
+    margin: 80px 0 0 20px;
+    position: relative; 
+    height: 372px;
+}
+section div:last-child article:last-child{
+    margin: 80px 0 0 20px; 
+    position: relative;
+    height: 372px;
+}
+/* .video{
+    width: 1260px;
+    height: 1000px;
+    margin: -200px 0 -280px 50px;
+} */
+
+
+section div article div{
+    position: absolute;
+    top: 0;
+	text-align: center;
+    display: inline-block;
+    height: 372px;
+    opacity: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+section div article div h4{
+    text-align: center;
+    color: white;
+    height: 45px;
+	padding: 20px 0;
+    font-size: 40px;
+    background-color: transparent;
+    font-family: 'Gugi', cursive;
+    margin-top: 20px;
+    transform: translateY(-20px);
+	transition: all 0.5s linear;
+}
+section div article:hover div h4{
+    transform: translateY(0);
+}
+section div article div p{
+    color: white;
+    background-color: transparent;
+    font-family: 'Gugi', cursive;
+    font-weight: bold;
+	text-align: justify;
+	padding: 0 20px;
+	margin-top: 20px;
+    font-size: 14px;
+    opacity: 0;
+	transition: all 1s linear;
+}
+section div article div p:hover{
+    transition: ease-out .1s;
+    color:gray;
+}
+section div article div a{
+    text-decoration: none;
+    font-family: 'Gugi', cursive;
+    font-weight: bold;
+	color: white;
+	background-color:transparent;
+	padding: 15px 20px;
+	display: inline-block;
+	margin-top: 20px;
+	font-size: 20px;
+	transition: all 1s linear;
+}
+section div article div a:hover{
+    transition: ease-out .1s;
+    border-bottom: solid #fff 2px;
+}
+section div article:hover div , section div article:hover div p , section div article:hover div a {
+    opacity: 1;
+}
+
+
+/* 
+
+footer .icon-facebook:hover, footer .icon-twitter:hover, footer .icon-instagram:hover,footer .facebook:hover, footer .twitter:hover, footer .instagram:hover{
+background: turquoise;
+} */
+footer {
+    width: 100%;
+    height: 80px;
+    opacity: 0.8;
+    position: relative;
+    font-family: 'Gugi', cursive;
+    bottom: 0;
+    margin-top: 50px;
+    -ms-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+.icon-twitter, .icon-facebook,.icon-instagram,.twitter,.facebook,.instagram{
+    background: #fff;
+    padding: 15px;
+    margin-left: 3%;
+    top: 15%;
+    position: absolute;
+    -ms-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+.twitter{
+    margin-left: 6%;
+}
+.icon-facebook{
+    margin-left: 18%;
+}
+.facebook{
+    margin-left: 21%;
+}
+.icon-instagram {
+    margin-left: 33%;
+}
+.instagram{
+    margin-left: 36%;
+}
+.p1{
+    right: 18%;
+    position: absolute;
+    font-size: 40px;
+    bottom:20%; 	
+    color: #000;
+    transition: all .7s linear;
+}
+.twitter, .instagram,.facebook{
+    font-size: 13.9px;
+}
+

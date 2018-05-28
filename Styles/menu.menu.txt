@@ -1,0 +1,47 @@
+.acc-des {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    transition-property: display;
+    transition-duration: 0.3s;
+    transition-delay: 0;
+}
+nav ul li a:hover .acc-des {
+    display: block;
+}
+
+
+
+
+                <div class="acc-des">
+                <p> Pelicula de accion</p>
+                </div>
+            
+
+                <div class="acc-des">
+                <p> Pelicula de amor</p>
+                </div>
+            
+
+                <div class="acc-des">
+                <p> Pelicula de comedia</p>
+                </div>
+            
+
+                <div class="acc-des">
+                <p> Pelicula de drama</p>
+                </div>
+            
+
+                <div class="acc-des">
+                <p> Pelicula de ficcion</p>
+                </div>
+            
+
+                <div class="acc-des">
+                <p> Pelicula de terror</p>
+                </div>
+            
