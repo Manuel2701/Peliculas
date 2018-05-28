@@ -5,11 +5,23 @@ padding: 0;
 background-color: #000;
 }
 .title{
-    margin-bottom: -80px;
-    font-size: 50px;
+    position: relative;
+}
+.title h1{
+    margin-bottom: 30px;
+    font-size: 100px;
     color: white;
     text-align: center;
     font-family: 'Skranji', cursive;
+}
+.crt{
+    position: absolute;
+    top: 23px;
+    left: 355px;
+    margin: auto;
+    width: 84px;
+    height: 78px;
+}
 }
 nav{
     width: 100%;
@@ -100,19 +112,22 @@ section div article{
     }
     
 
-    section div:first-child article:first-child div img{
+    section div article div img{
         margin-top: 50px;
         width: 50px;
         height: 50px;
         transition-property: width,height;
         transition-duration: 0.5s;
         transition-delay: 0;
+        background: transparent;
     }
-    section div:first-child article:first-child:hover div img{
+    section div article:hover div img{
         width: 200px;
         height: 200px;
     }
-
+    section div article div a{
+        background: transparent;
+    }
 
 
 
