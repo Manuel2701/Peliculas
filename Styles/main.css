@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Skranji');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 *{
 margin: 0;
 padding: 0;
 background-color: #000;
+position: relative;
 }
 .title{
     margin-bottom: -80px;
@@ -41,282 +43,149 @@ nav ul li a:hover{
 .action{
     background: #0074d2;
 }
-section{
-    position: relative;
-}
+
 section div{
-    position: absolute;
-    width: 100%;
-    height: 500px;
-    background: #09018e38;
+    display: inline-flex;
+    margin: 110px 0 0 0;
 }
-section img{
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 500px;
+section div h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 36px 0 0 169px;
+    color: white;
 }
 section div h1{
-    position: absolute;
-    bottom: 0;
-    font-size: 90px;
-    color: #fff;
-    background: transparent;
-    font-family: 'Skranji', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    color: white;
+    width: 100%;
+    margin: 0 0 0 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* section div{
+section div:nth-child(2){
+    height: 500px;
+    margin: 90px 0 0 168px;
     display: inline-flex;
 }
-section div:first-child article:first-child {
-    margin: 100px 0 0 50px;
-    position: relative;
-    height: 372px;
+section div:nth-child(2) a{
+    height: 100%;
 }
-section div:first-child article:nth-child(2){
-    margin: 100px 0 0 20px;
-    position: relative;
-    height: 372px;
+section div:nth-child(2) a img{
+    widows: 100%;
+    height: 100%;
 }
-section div:first-child article:nth-child(3){
-    margin: 100px 0 0 20px;
-    position: relative;
-    height: 372px;
+section div:nth-child(2) article h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 0 30px;
 }
-section div:first-child article:last-child{
-    margin: 100px 0 0 20px;
-    position: relative;
-    height: 372px;
-}
-section div:last-child article:first-child{
-    margin: 80px 0 0 50px; 
-    position: relative;
-    height: 372px;
-}
-section div:last-child article:nth-child(2){
-    margin: 80px 0 0 20px; 
-    position: relative;
-    height: 372px;
-}
-section div:last-child article:nth-child(3){
-    margin: 80px 0 0 20px;
-    position: relative; 
-    height: 372px;
-}
-section div:last-child article:last-child{
-    margin: 80px 0 0 20px; 
-    position: relative;
-    height: 372px;
-}
-/* .video{
-    width: 1260px;
-    height: 1000px;
-    margin: -200px 0 -280px 50px;
-} */
-
-
-/* section div article div{
-    position: absolute;
-    top: 0;
-	text-align: center;
-    display: inline-block;
-    height: 372px;
-    opacity: 0;
-    background-color: rgba(0,0,0,0.5);
-}
-section div article div h4{
-    text-align: center;
-    color: white;
-    height: 45px;
-	padding: 20px 0;
-    font-size: 40px;
-    background-color: transparent;
-    font-family: 'Gugi', cursive;
-    margin-top: 20px;
-    transform: translateY(-20px);
-	transition: all 0.5s linear;
-}
-section div article:hover div h4{
-    transform: translateY(0);
-}
-section div article div p{
-    color: white;
-    background-color: transparent;
-    font-family: 'Gugi', cursive;
-    font-weight: bold;
-	text-align: justify;
-	padding: 0 20px;
-	margin-top: 20px;
-    font-size: 14px;
-    opacity: 0;
-	transition: all 1s linear;
-}
-section div article div p:hover{
-    transition: ease-out .1s;
-    color:gray;
-}
-section div article div a{
-    text-decoration: none;
-    font-family: 'Gugi', cursive;
-    font-weight: bold;
-	color: white;
-	background-color:transparent;
-	padding: 15px 20px;
-	display: inline-block;
-	margin-top: 20px;
-	font-size: 20px;
-	transition: all 1s linear;
-}
-section div article div a:hover{
-    transition: ease-out .1s;
-    border-bottom: solid #fff 2px;
-}
-section div article:hover div , section div article:hover div p , section div article:hover div a {
-    opacity: 1;
-}  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer:hover{
-    opacity: 0.4;
+section div:nth-child(2) article h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    margin: 60px 0 0 67px;
 }
 
-footer:hover .icon-facebook, footer:hover .icon-twitter, footer:hover .icon-instagram,footer:hover .facebook, footer:hover .twitter, footer:hover .instagram{
-    background-color: #000;
-    color: white;
+section div:nth-child(3){
+    width: 500px;
+    height: 500px;
+    margin-top: 200px;
 }
-footer {
+section div:nth-child(3) article h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin:100px 0 0 68px;
+}
+section div:nth-child(3) article h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    margin: 60px 0 0 138px;
+}
+section div:nth-child(3) a{
+    height: 100%;
+    margin: 0 0 0 120px;
+}
+section div:nth-child(3) a video{
+    height: 100%;
+}
+
+section div:nth-child(4){
+    display: inline-flex;
+}
+section div:nth-child(4) div:first-child{
+    width: 700px;
+    height: 830px;
+    display: block;
+    margin: 0;
+}
+section div:nth-child(4) div:first-child a img{
     width: 100%;
-    height: 80px;
-    opacity: 0.8;
-    position: relative;
-    font-family: 'Gugi', cursive;
-    bottom: -500px;
-    margin-top: 50px;
-    -ms-transition: all 0.5s ease-in;
-    -moz-transition: all 0.5s ease-in;
-    -o-transition: all 0.5s ease-in;
-    -webkit-transition: all 0.5s ease-in;
-    transition: all 0.5s ease-in;
+    height: 100%;
+    margin: 0 0 0 100px;
 }
-.icon-twitter, .icon-facebook,.icon-instagram,.twitter,.facebook,.instagram{
-    background: #000;
-    padding: 15px;
-    margin-left: 3%;
-    top: 15%;
-    position: absolute;
-    -ms-transition: all 0.5s ease-in;
-    -moz-transition: all 0.5s ease-in;
-    -o-transition: all 0.5s ease-in;
-    -webkit-transition: all 0.5s ease-in;
-    transition: all 0.5s ease-in;
+section div:nth-child(4) div:first-child article h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 20px 0 0 170px;
 }
-.twitter{
-    margin-left: 6%;
+section div:nth-child(4) div:first-child article h2{
+    font-family: 'Roboto', sans-serif;
+    margin: 40px 0 0 100px;
 }
-.icon-facebook{
-    margin-left: 18%;
+section div:nth-child(4) div:last-child{
+    width: 400px;
+    height: 530px;
+    display: block;
 }
-.facebook{
-    margin-left: 21%;
+section div:nth-child(4) div:last-child a img{
+    width: 100%;
+    height: 100%;
 }
-.icon-instagram {
-    margin-left: 33%;
+section div:nth-child(4) div:last-child article h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 15px 0 0 70px;
 }
-.instagram{
-    margin-left: 36%;
+section div:nth-child(4) div:last-child article h2{
+    font-family: 'Roboto', sans-serif;
+    margin: 40px 0 0 0;
 }
-.p1{
-    right: 18%;
-    position: absolute;
-    font-size: 40px;	
-    color: #fff;
-    transition: all .7s linear;
-}
-.twitter, .instagram,.facebook{
-    font-size: 13.9px;
-} 
 
 
-
-
-
-
+footer{
+    width: 100%;
+    height: 250px;
+    background: white;
+    margin: 200px 0 0 0 ;
+    display: inline-flex;
+    position: absolute
+}
+footer div:first-child {
+    width: 237px;
+    height: 250px;
+    background: #ffab9d;
+}
+footer div:nth-child(2) {
+    width: 237px;
+    height: 250px;
+    background: #ff6382;
+}
+footer div:nth-child(3) {
+    width: 237px;
+    height: 250px;
+    background: #d46bc8;
+}
+footer div:nth-child(4) {
+    width: 237px;
+    height: 250px;
+    background: #9085da;
+}
+footer div:nth-child(5) {
+    width: 237px;
+    height: 250px;
+    background: #4fadff;
+}
+footer div:last-child {
+    width: 237px;
+    height: 250px;
+    background: #38d996;
+}
