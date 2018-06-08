@@ -4,7 +4,6 @@
 margin: 0;
 padding: 0;
 background-color: #000;
-position: relative;
 }
 .title{
     margin-bottom: -80px;
@@ -83,6 +82,7 @@ section div:nth-child(2) article h1{
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
     margin: 60px 0 0 67px;
+    width: 299px;
 }
 
 section div:nth-child(3){
@@ -157,35 +157,109 @@ footer{
     background: white;
     margin: 200px 0 0 0 ;
     display: inline-flex;
-    position: absolute
+    position: absolute;
+}
+footer div a{
+    position: absolute;
+    background: transparent;
+    text-decoration: none;
+}
+footer div a h3{
+    margin: 50px 0 0 50px;
+    background: transparent;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+footer div a h3 img{
+    height: 0px;
+    background: transparent;
+    margin: 0 0 0 75px;
+}
+footer div:hover a h3 img{
+    height: 20px;
+}
+footer div a p{
+    margin: 120px 0 0 20px;
+    background: transparent;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    transition-property: margin;
+    transition-duration: 0.3s;
+    transition-delay: 0;
+}
+footer div:hover a p{
+    margin: 100px 0 0 20px; 
 }
 footer div:first-child {
+    position: relative;
     width: 237px;
     height: 250px;
     background: #ffab9d;
 }
+footer div:first-child:hover a h3{
+    color:  #ffab9d;
+}
+footer div:first-child:hover{
+    background: black;
+}
 footer div:nth-child(2) {
+     position: relative;
     width: 237px;
     height: 250px;
     background: #ff6382;
 }
+footer div:nth-child(2):hover a h3{
+    color: #ff6382;
+}
+footer div:nth-child(2):hover{
+    background: black;
+}
 footer div:nth-child(3) {
+     position: relative;
     width: 237px;
     height: 250px;
     background: #d46bc8;
 }
+footer div:nth-child(3):hover a h3{
+    color: #d46bc8;
+}
+footer div:nth-child(3):hover{
+    background: black;
+}
 footer div:nth-child(4) {
+     position: relative;
     width: 237px;
     height: 250px;
     background: #9085da;
 }
+footer div:nth-child(4):hover a h3{
+    color: #9085da;
+}
+footer div:nth-child(4):hover{
+    background: black;
+}
 footer div:nth-child(5) {
+     position: relative;
     width: 237px;
     height: 250px;
     background: #4fadff;
 }
+footer div:nth-child(5):hover a h3{
+    color: #4fadff;
+}
+footer div:nth-child(5):hover{
+    background: black;
+}
 footer div:last-child {
+     position: relative;
     width: 237px;
     height: 250px;
     background: #38d996;
+}
+footer div:last-child:hover a h3{
+    color: #38d996;
+}
+footer div:last-child:hover{
+    background: black;
 }
