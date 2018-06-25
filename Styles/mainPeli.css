@@ -75,6 +75,7 @@ section article:last-child div:last-child{
     position: absolute;
     right: 0;
     margin: 50px 0 0 0;
+    padding: 50px;
 }
 section article:last-child div:last-child h3{
     font-family: 'Roboto', sans-serif;
